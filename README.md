@@ -1,25 +1,10 @@
-# ulauncher-browser-bookmarks
+# ulauncher-brave-beta-bookmarks
 
-> [ulauncher](https://ulauncher.io/) Extension to quickly open browser bookmarks.
+> [ulauncher](https://ulauncher.io/) Extension to quickly open Brave Beta browser bookmarks.
 
-❗ This extension is heavily based on [this extension](https://github.com/nortmas/chrome-bookmarks). It's published as separate extension, because the original extension is hardly maintained anymore. Special thanks to Dmitry Antonenko for developing the original extension 👏
+❗ This extension is a fork of [this extension](https://github.com/pascalbe-dev/ulauncher-browser-bookmarks/) written by Pascal Betting which itself heavily based on [this extension](https://github.com/nortmas/chrome-bookmarks).
 
-## Demo
-
-https://github.com/pascalbe-dev/ulauncher-browser-bookmarks/assets/26909176/c39d9610-fe8d-4e1f-89e5-cff483bd1992
-
-## Features
-
-- search and open browser bookmarks
-  - search by single text (must be contained in the bookmark title)
-  - search by multiple texts split by space (all must be contained in the bookmark title)
-- supports multiple browser profiles
-- supports multiple browsers 
-  - Google Chrome
-  - Chromium
-  - Brave
-  - Vivaldi
-  - other chromium based browsers by specifying the browser config path in the extension settings
+❗❗ This extension limited for Brave Browser on purpopse and works only with Brave Beta.
 
 ## Requirements
 
@@ -30,32 +15,4 @@ https://github.com/pascalbe-dev/ulauncher-browser-bookmarks/assets/26909176/c39d
 
 Open ulauncher preferences window -> extensions -> add extension and paste the following url:
 
-`https://github.com/pascalbe-dev/ulauncher-browser-bookmarks.git`
-
-## Contribution
-
-Please refer to [the contribution guidelines](./CONTRIBUTING.md)
-
-## Local development
-
-### Requirements
-
-- `less` package installed
-- `inotify-tools` package installed
-
-### Getting started
-
-1. Clone the repo `git clone https://github.com/pascalbe-dev/ulauncher-browser-bookmarks.git`
-2. Cd into the folder `cd ulauncher-browser-bookmarks`
-
-### Quality insurance
-
-- install the ruff via `pip install -r requirements.txt`
-- run formatting via `ruff format`
-- run linting via `ruff check`
-
-### Local testing
-
-1. Watch and deploy your extension locally for simple developing and testing in parallel `./watch-and-deploy.sh` (this will restart ulauncher without extensions and deploy this extension at the beginning and each time a file in this directory changes)
-2. Check the extension log `less /tmp/ulauncher-extension.log +F`
-3. Check ulauncher dev log `less /tmp/ulauncher.log +F`
+`https://github.com/n8creator/ulauncher-brave-beta-bookmarks.git`
