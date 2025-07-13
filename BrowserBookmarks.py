@@ -23,20 +23,11 @@ logging.basicConfig()
 logger = logging.getLogger(__name__)
 
 support_browsers = [
-    "google-chrome",
-    "chromium",
-    "Brave-Browser",
-    "BraveSoftware",
-    "vivaldi",
+    "BraveSoftware/Brave-Browser-Beta",
 ]
 
 browser_imgs = {
-    "google-chrome": "images/chrome.png",
-    "chromium": "images/chromium.png",
-    "Brave-Browser": "images/brave.png",
-    "BraveSoftware": "images/brave.png",
-    "vivaldi": "images/vivaldi.png",
-    "custom_path": "images/chromium.png",
+    "BraveSoftware/Brave-Browser-Beta": "images/brave-beta.png",
 }
 
 
