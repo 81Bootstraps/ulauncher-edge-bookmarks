@@ -13,7 +13,7 @@
       "type": "keyword",
       "name": "Edge Browser Bookmarks extension",
       "description": "The keyword to start the Edge Browser Bookmarks extension",
-      "default_value": "b"
+      "default_value": "e"
     },
     {
       "id": "additional_browser_paths",
