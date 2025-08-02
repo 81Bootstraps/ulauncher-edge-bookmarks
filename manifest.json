@@ -1,9 +1,9 @@
 {
   "required_api_version": "^2.0.0",
-  "name": "Brave Beta Browser Bookmarks",
-  "description": "Search and launch Brave Beta browser bookmarks",
+  "name": "Edge Browser Bookmarks",
+  "description": "Search and launch Edge browser bookmarks",
   "developer_name": "Dmitry Volkov, Pascal Betting",
-  "icon": "images/brave-beta.png",
+  "icon": "images/edge.png",
   "options": {
     "query_debounce": 0.1
   },
@@ -11,8 +11,8 @@
     {
       "id": "keyword",
       "type": "keyword",
-      "name": "Brave Beta Browser Bookmarks extension",
-      "description": "The keyword to start the Brave Beta Browser Bookmarks extension",
+      "name": "Edge Browser Bookmarks extension",
+      "description": "The keyword to start the Edge Browser Bookmarks extension",
       "default_value": "b"
     },
     {

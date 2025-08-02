@@ -23,11 +23,11 @@ logging.basicConfig()
 logger = logging.getLogger(__name__)
 
 support_browsers = [
-    "BraveSoftware/Brave-Browser-Beta",
+    "microsoft-edge",
 ]
 
 browser_imgs = {
-    "BraveSoftware/Brave-Browser-Beta": "images/brave-beta.png",
+    "microsoft-edge": "images/edge.png",
 }
 
 
@@ -90,8 +90,8 @@ class BrowserBookmarks(Extension):
 
         for browser in support_browsers:
             potential_bookmark_paths = [
-                "$HOME/.config/%s" % browser,
-                "$HOME/snap/%s/current/.config/%s" % (browser, browser),
+                "$HOME/.config/microsoft-edge",
+                "$HOME/.var/app/com.microsoft.Edge/config/microsoft-edge",
             ]
 
             found_bookmarks.extend(
